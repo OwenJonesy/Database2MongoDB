@@ -1,0 +1,14 @@
+Collection called House:
+
+Name based on the House Name column
+
+	Name:
+
+	Members: [Based on House column]
+		Name, male,title,dateofbirth,allegiances
+
+	Allies: [Based on Allegiances column]
+		Name,male,title,dateofbirth,house
+
+	Battles: [Based on attacker and defender]
+		Name,year,attacker_king, defender_king,Location,Region
